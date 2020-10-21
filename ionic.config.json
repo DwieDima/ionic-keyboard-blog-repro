@@ -1,0 +1,7 @@
+{
+  "name": "ionic-footer-input-lag",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

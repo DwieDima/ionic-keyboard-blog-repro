@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  <ion-toolbar></ion-toolbar>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col>
+        <ion-avatar>
+          <span class="center-center letter">DK</span>
+        </ion-avatar>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-grid class="ion-no-padding">
+    <ion-row *ngFor="let i of [1,2,3]">
+      <ion-col size="9" offset="3" class="message my-message"
+        >Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+        De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo
+        vel maleficia? De apocalypsi gorger omero undead survivor
+        dictum.</ion-col
+      >
+    </ion-row>
+    <ion-row *ngFor="let i of [1,2,3]">
+      <ion-col size="9" class="message other-message"
+        >Zombie ipsum reversus ab viral inferno, nam rick grimes malum, Zombie
+        ipsum reversus ab viral inferno, nam rick grimes malum, Zombie ipsum
+        reversus ab viral</ion-col
+      >
+    </ion-row>
+    <ion-row>
+      <ion-col size="9" offset="3" class="message my-message"
+        >Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+        De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo
+        vel maleficia? De apocalypsi gorger omero undead survivor
+        dictum.</ion-col
+      >
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar class="chat-toolbar ion-no-border">
+    <ion-buttons slot="start" class="stick-bottom">
+      <ion-button color="medium" size="small">
+        <ion-icon slot="icon-only" name="camera"></ion-icon>
+      </ion-button>
+      <ion-button color="medium" size="small">
+        <ion-icon slot="icon-only" name="logo-apple-appstore"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <div>
+      <ion-textarea [autoGrow]="true" rows="1"></ion-textarea>
+      <ion-buttons slot="end" class="button-wrapper">
+        <ion-button size="small">
+          <ion-icon slot="icon-only" name="arrow-up"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </div>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,66 @@
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+.my-message {
+  background: var(--ion-color-primary);
+  color: white;
+}
+
+.other-message {
+  background: #eae9ef;
+  color: black;
+}
+
+ion-avatar {
+  margin: auto;
+  width: 42px;
+  height: 42px;
+  background: var(--ion-color-medium) !important;
+}
+
+.letter {
+  font-weight: bolder;
+}
+
+.center-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ion-textarea {
+  border-radius: 17px;
+  border: 0.5px solid rgba(var(--ion-color-medium-rgb), 0.5);
+  max-height: 140px;
+  --padding-start: 12px;
+  --padding-end: 40px;
+  --padding-top: 6px;
+  --padding-bottom: 8px;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+
+  ion-button {
+    --background: var(--ion-color-primary);
+    --color: white;
+    --border-radius: 50%;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.chat-toolbar {
+  --padding-top: 5px;
+}
+
+.stick-bottom {
+  align-self: flex-end;
+}
